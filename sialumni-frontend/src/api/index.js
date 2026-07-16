@@ -1,5 +1,6 @@
 // Base URL - menggunakan proxy dari vite.config.js
-const BASE_URL = '/api';
+// Menggunakan URL backend Railway saat online, dan otomatis balik ke /api (proxy) jika di laptop
+const BASE_URL = import.meta.env.VITE_API_URL ? `${import.meta.env.VITE_API_URL}/api` : '/api';
 
 export function getToken() {
   return localStorage.getItem('sialumni_token');
