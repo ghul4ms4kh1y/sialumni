@@ -3,10 +3,10 @@
 -- Skema Database MySQL
 -- =========================================================
 
-CREATE DATABASE IF NOT EXISTS sialumni
-  CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+-- CREATE DATABASE IF NOT EXISTS sialumni
+--   CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
-USE sialumni;
+-- USE sialumni;
 
 -- =========================================================
 -- Tabel Admin
